@@ -28,6 +28,9 @@ def getTopList(request):
         if toplist.empty:
             response['list'] = []
         else:
+            # 将 列 转成数字
+            toplist[['pchange', 'amount', 'buy', 'bratio', 'sell', 'sratio']] = \
+              toplist[['pchange', 'amount', 'buy', 'bratio', 'sell', 'sratio']].astype(float)
             response['list'] = json.loads(toplist.to_json(orient='records', force_ascii=False))
         response['msg'] = 'success'
         response['error_num'] = 0

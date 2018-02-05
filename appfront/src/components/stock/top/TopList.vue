@@ -14,11 +14,11 @@
                     <el-table-column fixed prop="code" label="代码" sortable min-width="100"></el-table-column>
                     <el-table-column fixed prop="name" label="名称" sortable min-width="110"></el-table-column>
                     <el-table-column prop="pchange" label="当日涨跌幅" sortable min-width="120"></el-table-column>
-                    <el-table-column prop="amount" label="成交额(万)" min-width="100"></el-table-column>
-                    <el-table-column prop="buy" label="买入额(万)" min-width="100"></el-table-column>
-                    <el-table-column prop="bratio" label="买入比例" min-width="100"></el-table-column>
-                    <el-table-column prop="sell" label="卖出额(万)" min-width="100"></el-table-column>
-                    <el-table-column prop="sratio" label="卖出占比" min-width="100"></el-table-column>
+                    <el-table-column prop="amount" label="成交额(万)" sortable min-width="100"></el-table-column>
+                    <el-table-column prop="buy" label="买入额(万)" sortable min-width="100"></el-table-column>
+                    <el-table-column prop="bratio" label="买入比例" sortable min-width="100"></el-table-column>
+                    <el-table-column prop="sell" label="卖出额(万)" sortable min-width="100"></el-table-column>
+                    <el-table-column prop="sratio" label="卖出占比" sortable min-width="100"></el-table-column>
                     <el-table-column prop="reason" label="上榜原因" min-width="300"></el-table-column>
                     <el-table-column prop="date" label="日期" sortable min-width="120"></el-table-column>
                 </el-table>
